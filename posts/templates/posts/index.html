@@ -1,2 +1,7 @@
-<h1>Welcome to python django</h1>
-<h2>This is test html page for django</h2>
+{% extends 'posts/layout.html' %}
+
+{% block content %}
+<h3 class="center-align red lighten-3">
+    {{title}}
+</h3>
+{% endblock %}
